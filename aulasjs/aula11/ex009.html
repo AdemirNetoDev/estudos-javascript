@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio Países</title>
+</head>
+<body>
+    <h1>Sistema de Reconhecimento de País</h1>
+    <p>Vivendo em: <input type="text" name="txtpais" id="txtpais"><input type="button" name="txtbotao" id="txtbotao" value="Verificar"></p>
+    <div id="res" onclick="calcular()">
+        Resultado:
+    </div>
+
+    <script>
+        function onclick(){
+            var res = document.getElementById('res')
+            if (pais == 'Brazil'){
+            res.innerHTML = (`Brasileiro!`)
+            } else {
+                res.innerHTML =(`Estrangeiro`)
+            }
+        }
+    </script>
+</body>
+</html>
