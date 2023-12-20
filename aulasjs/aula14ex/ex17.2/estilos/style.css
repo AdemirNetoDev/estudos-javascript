@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: white;
+}
+
+#cont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#cont > #calc > h1 {
+    font-size: 3em;
+    color: black;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+}
+
+#cont > #calc > #inp > label {
+    font-weight: bold;
+    font-size: 1.2em;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.432);
+}
+
+#cont > #calc {
+    height: 700px;
+    width: 700px;
+    background-color: rgb(184, 120, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+}
+
+#calc > .add {
+    background-color: green;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#calc > .clearout {
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    font-size: 0.8em;
+    font-weight: bold;
+    padding: 2px;
+}
+
+#calc > .add:hover {
+    background-color: rgba(15, 182, 15, 0.712);
+}
+
+#calc > .clearout:hover {
+    background-color: rgb(189, 78, 78);
+}
